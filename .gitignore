@@ -1,0 +1,9 @@
+.pio/
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.sconsign*.dblite
+*.o
+*.d
+*.elf
+*.bin
+.DS_Store
