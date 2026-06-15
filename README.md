@@ -1,4 +1,4 @@
-# Parkinson's Disease Monitor by Lingfeng Que (lq303) and Zhanyu Gao (zg2840)
+# Parkinson's Disease Monitor
 ## Real-Time Wearable Detection System with Wireless BLE Communication
 
 ### Project Overview
