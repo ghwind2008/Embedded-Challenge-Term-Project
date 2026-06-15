@@ -1,0 +1,12 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.printf_lib": "std",
+            "target.features_add": ["BLE"],
+            "target.device_has_add": ["CORDIO"],
+            "cordio.desired-att-mtu": 256,
+            "cordio.max-prepared-writes": 16,
+            "mbed-trace.enable": false
+        }
+    }
+}
