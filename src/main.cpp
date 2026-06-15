@@ -1,5 +1,3 @@
-//Work by Lingfeng Que (lq303) and Zhanyu Gao (zg2840)
-
 #include "mbed.h"
 #include "arm_math.h"
 #include "arm_const_structs.h"
