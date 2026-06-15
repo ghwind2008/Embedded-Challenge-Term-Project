@@ -1,4 +1,4 @@
-# Parkinson's Disease Monitor
+# Parkinson's Disease Monitor by Lingfeng Que (lq303) and Zhanyu Gao (zg2840)
 ## Real-Time Wearable Detection System with Wireless BLE Communication
 
 ### Project Overview
@@ -96,3 +96,9 @@ The BLE implementation follows the official mbed BLE architecture using event qu
 We have successfully implemented a sophisticated real-time Parkinson's disease monitoring system that demonstrates advanced embedded systems concepts including digital signal processing, frequency domain analysis, temporal pattern recognition, wireless communication, and multi-modal user feedback. Our algorithmic approach prioritizes robustness through multi-criteria validation and conservative temporal logic rather than chasing maximum sensitivity at the expense of false positives. The complete system integration including sensor acquisition, signal processing, state management, BLE communication, and hardware feedback represents genuine systems engineering that goes substantially beyond simple threshold detection or single-domain implementations.
 
 This project showcases our understanding of embedded systems fundamentals, signal processing mathematics, wireless communication protocols, and medical device design considerations. We are proud to have delivered a complete working system that satisfies all project requirements while demonstrating technical sophistication and engineering judgment in algorithm design and implementation choices.
+
+## GitHub upload note
+
+This repository does not include the large CMSIS-DSP source folder. PlatformIO downloads CMSIS-DSP automatically from the `lib_deps` entry in `platformio.ini`.
+
+If uploading through the GitHub website, create a `.gitignore` file manually using the contents of `GITIGNORE_TEMPLATE.txt`, because Windows may hide `.gitignore` in the file picker.
